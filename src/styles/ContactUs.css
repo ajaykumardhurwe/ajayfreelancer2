@@ -1,0 +1,77 @@
+/* General Styles */
+
+
+
+  
+  input, textarea {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+   
+  
+  /* button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  } */
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+
+
+
+
+
+
+  /* Responsive Design */
+
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    input, textarea {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    form {
+      padding: 10px;
+    }
+  
+    input, textarea {
+      font-size: 0.8rem;
+      padding: 6px;
+    }
+  
+    button {
+      font-size: 0.8rem;
+      padding: 8px;
+    }
+  }
+  

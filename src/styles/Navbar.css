@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #343a40;
+    padding: 10px;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li {
+    margin: 0 10px;
+  }
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+
+
+

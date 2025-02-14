@@ -1,0 +1,77 @@
+/* .drawer {
+    position: relative;
+  }
+  .toggle-btn {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .drawer-content {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #f8f9fa;
+    width: 200px;
+    border: 1px solid #ddd;
+  }
+  .drawer-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #343a40;
+  }
+   */
+
+
+
+
+   /* Drawer Container */
+.drawer {
+  position: relative;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  font-size: 24px;
+  padding: 10px;
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Drawer Content */
+.drawer-content {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #495057;
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+/* Drawer Links */
+.drawer-content a {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.drawer-content a svg {
+  margin-right: 10px;
+}
+
+.drawer-content a:hover {
+  color: #ffc107;
+}

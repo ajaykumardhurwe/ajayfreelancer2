@@ -1,0 +1,98 @@
+/* .crud-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  .item-list {
+    margin-top: 20px;
+  }
+  .item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .item img {
+    max-width: 100%;
+  }
+  .item h3 {
+    margin-top: 0;
+  } */
+
+
+
+
+
+  /* Container Styling with Color Grading */
+.crud-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: linear-gradient(135deg, #e0e0e0, #f5f5f5);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Item List */
+.item-list {
+  margin-top: 20px;
+}
+
+/* Item Card with Hover Effect */
+.item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Item Heading */
+.item h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #343a40;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .crud-container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .item {
+    padding: 10px;
+  }
+
+  .item h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .crud-container {
+    padding: 10px;
+  }
+
+  .item {
+    padding: 8px;
+  }
+
+  .item h3 {
+    font-size: 16px;
+  }
+}

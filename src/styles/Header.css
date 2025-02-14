@@ -1,0 +1,92 @@
+/* Base styles for the header */
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+/* Video container styling */
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; 
+}
+
+/* Background video styling */
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+}
+
+/* Header content styling */
+.header-content {
+  position: relative;
+  z-index: 1; /* Place content above the video */
+  text-align: center;
+  padding: 20px;
+  color: #fff; /* White text for contrast */
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  border-radius: 10px; /* Optional: Rounded corners for modern look */
+  max-width: 600px;
+  margin: auto;
+}
+
+
+
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 1024px) {
+  .header {
+    height: 10vh; 
+  }
+
+  .background-video {
+    object-fit:contain;
+    
+  }
+
+  .header-content {
+    font-size: 1rem; /* Slightly smaller font */
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 10vh; /* Reduce height for smaller devices */
+  }
+
+  .background-video {
+    object-fit: contain; /* Ensure the video is fully visible */
+  }
+
+  .header-content {
+    font-size: 0.9rem; /* Further reduce font size */
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 20vh; /* Further reduce height for very small devices */
+   /* width: 100%; */
+
+  }
+
+  .background-video {
+    width: auto; /* Let the width adjust automatically */
+    height: 100%; /* Keep the height 100% */
+    object-fit:contain; /* Ensure the video fits without cropping */
+  }
+
+  .header-content {
+    font-size: 0.8rem; /* Reduce font size for smaller devices */
+    padding: 10px;
+  }
+}

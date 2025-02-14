@@ -1,0 +1,85 @@
+.content {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .links-list {
+    margin-top: 30px;
+  }
+  
+  .link-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .link-item button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .link-item button:hover {
+    background-color: #218838;
+  }
+  
+
+
+  .link-item button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .link-item button:nth-child(2) {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .link-item button:nth-child(3) {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .link-item button:nth-child(4) {
+    background-color: #dc3545;
+    color: white;
+  }
+  

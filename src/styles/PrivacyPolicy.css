@@ -1,0 +1,59 @@
+/* Base Styles */
+.privacy-policy {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .privacy-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  p, li {
+    font-size: 1em;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .privacy-policy {
+      padding: 10px;
+    }
+  
+    .privacy-title {
+      font-size: 1.5em;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  
+    p, li {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .privacy-policy {
+      font-size: 0.8em;
+    }
+  }

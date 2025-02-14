@@ -1,0 +1,58 @@
+
+
+ /* Header Styling */
+ .header {
+    background: #6c757d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Navbar Positioned Below the Header */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative; /* No longer fixed */
+    background: linear-gradient(135deg, #343a40, #495057);
+    padding: 15px 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  /* Navbar List Styling */
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar List Item Spacing */
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  /* Navbar Links */
+  .navbar a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s, transform 0.2s;
+  }
+  
+  /* Hover Effect for Links */
+  .navbar a:hover {
+    color: #ffc107;
+    transform: scale(1.1);
+  }
+  
+  /* Content Styling */
+  .content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  

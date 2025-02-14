@@ -1,0 +1,169 @@
+General Styles
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+label {
+  cursor: pointer;
+  display: block;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+label:hover {
+  background-color: #e0e0e0;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + label {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+
+
+
+
+
+/* Base Styles */
+.sign-in-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 150px;
+ 
+}
+
+.sign-in-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.sign-in-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 128, 0, 0.8);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .sign-in-btn {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sign-in-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  label {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
