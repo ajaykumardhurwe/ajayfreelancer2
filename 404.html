@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; URL=/" />
+    <script>
+        // Redirect to the root for React Router
+        window.location.href = "/";
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay on the Same Page</title>
+    <script>
+        // पेज लोड होने पर URL चेक और रीलोड करें
+        window.onload = function () {
+            // वर्तमान URL प्राप्त करें
+            const currentPath = window.location.pathname;
+
+            // बेस URL (आपके डोमेन का URL)
+            const baseUrl = 'https://ajaydhurwe.tech';
+
+            // सहेजे गए URL को sessionStorage से पढ़ें
+            const savedPath = sessionStorage.getItem('lastPage');
+
+            // अगर savedPath मौजूद है और currentPath से अलग है, तो रीडायरेक्ट करें
+            if (savedPath && savedPath !== currentPath) {
+                window.location.href = baseUrl + savedPath;
+            } else {
+                // वर्तमान पथ को sessionStorage में सहेजें
+                sessionStorage.setItem('lastPage', currentPath);
+            }
+        };
+
+        // पेज बंद होने से पहले वर्तमान पेज सहेजें
+        window.onbeforeunload = function () {
+            sessionStorage.setItem('lastPage', window.location.pathname);
+        };
+    </script>
+</head>
+    
+<body>
+    <p>Reloading the same page...</p>
+</body>
+</html>
+
+
+
+
