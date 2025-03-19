@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ajayfreelancer2/static/css/main.d700f554.css",
-    "main.js": "/ajayfreelancer2/static/js/main.0c64ddfe.js",
+    "main.js": "/ajayfreelancer2/static/js/main.e123ea88.js",
     "static/js/488.57b5ffca.chunk.js": "/ajayfreelancer2/static/js/488.57b5ffca.chunk.js",
     "static/media/headerbgVideo.mp4": "/ajayfreelancer2/static/media/headerbgVideo.b3be45617c621f259652.mp4",
     "static/media/slick.svg": "/ajayfreelancer2/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,11 +10,11 @@
     "static/media/slick.ttf": "/ajayfreelancer2/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ajayfreelancer2/static/media/slick.295183786cd8a1389865.woff",
     "main.d700f554.css.map": "/ajayfreelancer2/static/css/main.d700f554.css.map",
-    "main.0c64ddfe.js.map": "/ajayfreelancer2/static/js/main.0c64ddfe.js.map",
+    "main.e123ea88.js.map": "/ajayfreelancer2/static/js/main.e123ea88.js.map",
     "488.57b5ffca.chunk.js.map": "/ajayfreelancer2/static/js/488.57b5ffca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d700f554.css",
-    "static/js/main.0c64ddfe.js"
+    "static/js/main.e123ea88.js"
   ]
 }
